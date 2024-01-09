@@ -1,0 +1,42 @@
+#pro{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left:50px;
+  }
+  
+
+  #a{
+   
+    box-shadow:3px 3px 7px 7px rgb(226, 220, 220);
+    border-radius:20px;
+    margin:25px;
+  }
+  
+  
+  @media(max-width:749px){
+  
+    #pro{
+      display: inline;
+      width: 100%;
+      position: absolute;
+      right:0;
+      left:0;
+    }
+    #kol{
+      display: inline;
+      width: 100%;
+      position: absolute;
+      right:0;
+      left:0;
+      margin-right:200px;
+      top:2900px;
+    }
+    #das{
+      display: inline;
+      width: 100%;
+      position: absolute;
+      right:0;
+      left:0;
+      top:3000px;
+    }
+  }
